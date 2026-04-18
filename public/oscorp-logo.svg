@@ -1,0 +1,86 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gold Circle Border -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#B8860B" stroke-width="8"/>
+  
+  <!-- Background -->
+  <circle cx="100" cy="100" r="90" fill="#F5F5F5"/>
+  
+  <!-- Decorative Stars/Sparkles -->
+  <g id="sparkles">
+    <!-- Top right star -->
+    <polygon points="130,55 135,70 151,72 140,82 143,98 130,90 117,98 120,82 109,72 125,70" fill="#D4AF37" opacity="0.8"/>
+    
+    <!-- Left star -->
+    <polygon points="55,85 58,95 69,96 60,103 62,113 55,108 48,113 50,103 41,96 52,95" fill="#D4AF37" opacity="0.8"/>
+    
+    <!-- Bottom right star -->
+    <polygon points="135,135 138,145 149,146 140,153 142,163 135,158 128,163 130,153 121,146 132,145" fill="#D4AF37" opacity="0.8"/>
+    
+    <!-- Small sparkle top left -->
+    <circle cx="70" cy="60" r="3" fill="#D4AF37" opacity="0.7"/>
+    
+    <!-- Small sparkle bottom -->
+    <circle cx="100" cy="150" r="2.5" fill="#D4AF37" opacity="0.6"/>
+  </g>
+  
+  <!-- Golden rays/shapes -->
+  <g id="rays" opacity="0.9">
+    <!-- Top ray -->
+    <polygon points="100,40 95,50 105,50" fill="#FFD700"/>
+    <!-- Top right ray -->
+    <polygon points="130,55 120,60 128,68" fill="#FFD700"/>
+    <!-- Right ray -->
+    <polygon points="150,100 140,95 140,105" fill="#FFD700"/>
+    <!-- Bottom right ray -->
+    <polygon points="130,145 128,132 120,140" fill="#FFD700"/>
+    <!-- Bottom ray -->
+    <polygon points="100,160 105,150 95,150" fill="#FFD700"/>
+    <!-- Bottom left ray -->
+    <polygon points="70,145 80,140 72,132" fill="#FFD700"/>
+    <!-- Left ray -->
+    <polygon points="50,100 60,105 60,95" fill="#FFD700"/>
+    <!-- Top left ray -->
+    <polygon points="70,55 72,68 80,60" fill="#FFD700"/>
+  </g>
+  
+  <!-- Main "O" with eye -->
+  <g id="o-letter">
+    <!-- Outer red circle -->
+    <circle cx="80" cy="100" r="28" fill="none" stroke="#C41E3A" stroke-width="5"/>
+    
+    <!-- Inner white circle -->
+    <circle cx="80" cy="100" r="18" fill="white" stroke="#C41E3A" stroke-width="2"/>
+    
+    <!-- Eye white part -->
+    <ellipse cx="80" cy="98" rx="12" ry="14" fill="white"/>
+    
+    <!-- Red iris -->
+    <circle cx="76" cy="100" r="8" fill="#C41E3A"/>
+    
+    <!-- Blue iris -->
+    <circle cx="84" cy="100" r="8" fill="#003B7A"/>
+    
+    <!-- Dark pupils -->
+    <circle cx="76" cy="100" r="4" fill="black"/>
+    <circle cx="84" cy="100" r="4" fill="black"/>
+  </g>
+  
+  <!-- Main "S" shape -->
+  <g id="s-letter">
+    <!-- Top curve of S - Red -->
+    <path d="M 130 75 Q 145 85 140 100" fill="none" stroke="#C41E3A" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Bottom curve of S - Blue -->
+    <path d="M 130 100 Q 145 115 140 125" fill="none" stroke="#003B7A" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Connecting middle part with gradient effect -->
+    <circle cx="135" cy="100" r="7" fill="#C41E3A" opacity="0.8"/>
+    <circle cx="135" cy="100" r="5" fill="#003B7A" opacity="0.8"/>
+  </g>
+  
+  <!-- Additional stylized elements for the OS monogram -->
+  <g id="accent">
+    <!-- Horizontal line connecting O and S -->
+    <line x1="108" y1="100" x2="122" y2="100" stroke="#D4AF37" stroke-width="2" opacity="0.6"/>
+  </g>
+</svg>
